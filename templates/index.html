@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Classifier</title>
+</head>
+<body>
+    <h2>Upload Your Resume (PDF/DOCX)</h2>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <input type="file" name="resume" required>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
